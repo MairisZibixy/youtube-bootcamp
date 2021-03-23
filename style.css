@@ -1,11 +1,38 @@
-/** @format */
+/* @format */
 
 #top-menu {
     display: flex;
     justify-content: space-between;
 }
 
+.navigation {
+    position: absolute;
+    margin-left: auto;
+}
+
+.youtube-icon {
+    position: absolute;
+    margin-left: 10%;
+}
+
+.search {
+    position: absolute;
+    margin-left: 20%;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: inset 0px 4px 3px rgba(0, 0, 0, 0.05);
+    border-radius: 1px 0px 0px 1px;
+}
+
+.button {
+    position: absolute;
+    background: #F8F8F8;
+    border: 1px solid #CCCCCC;
+    border-radius: 1px 0px 0px 1px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
 .search input:focus {
     outline: none;
-    background: rgb(233, 233, 233);
+    background: #FFFFFF;
 }
