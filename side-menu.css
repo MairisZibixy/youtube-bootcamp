@@ -39,7 +39,11 @@
 
 .side-menu--closed a {
     flex-direction: column;
+    font-size: 9px;
     padding: 0;
+    height: 72px;
+    justify-content: center;
+    align-items: center;
 }
 
 .side-menu .icon {
@@ -47,17 +51,26 @@
     margin-right: 14px;
 }
 
+.side-menu--closed .icon {
+    margin-right: 0;
+    width: initial;
+}
+
 .side-menu a:hover {
     background: rgba(0, 0, 0, 0.05)
 }
 
 .side-menu .icon svg {
-    fill: #606060
+    fill: #606060;
 }
 
 .side-menu a:active svg,
-.side-menu .current svg {
+.side-menu .current svg,
+.side-menu a:active span.text,
+.side-menu a.current span.text {
     fill: red;
+    transition: fill 0.5s;
+    color: red;
 }
 
 .side-menu a.current {
