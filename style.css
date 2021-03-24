@@ -1,23 +1,22 @@
-/* @format */
-
 #top-menu {
     display: flex;
     justify-content: space-between;
+    height: 22px;
+    margin-bottom: 10px;
 }
 
 .navigation {
     position: absolute;
-    margin-left: auto;
+    margin-left: 5px;
 }
 
 .youtube-icon {
     position: absolute;
-    margin-left: 10%;
+    margin-left: 30px;
 }
 
 .search {
-    position: absolute;
-    margin-left: 20%;
+    margin-left: 150px;
     background: #FFFFFF;
     border: 1px solid #CCCCCC;
     box-shadow: inset 0px 4px 3px rgba(0, 0, 0, 0.05);
@@ -35,4 +34,24 @@
 .search input:focus {
     outline: none;
     background: #FFFFFF;
+}
+
+.broadcast {
+    position: absolute;
+    margin-left: 600px;
+}
+
+.menu {
+    position: absolute;
+    margin-left: 625px;
+}
+
+.notifications {
+    position: absolute;
+    margin-left: 650px;
+}
+
+.bell {
+    position: absolute;
+    margin-left: 675px;
 }
