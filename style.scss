@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    background: #f1f1f1;
+}
+
+#top-menu {
+    display: flex;
+    padding-top: 5px;
+    justify-content: space-between;
+}
+
+#start {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    padding: 0 3px 0 5px;
+}
+
+.youtube-icon {
+    padding: 4px 3px 0 0;
+}
+
+.search {
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: inset 0px 4px 3px rgba(0, 0, 0, 0.05);
+    border-radius: 1px 0px 0px 1px;
+    padding-top: 3px;
+}
+
+.search input:focus {
+    outline: none;
+    background: #dddada;
+}
+
+.button {
+    background: #F8F8F8;
+    border: 1px solid #CCCCCC;
+    border-radius: 1px 0px 0px 1px;
+    outline: none;
+}
+
+#end {
+    display: flex;
+    align-items: center;
+}
+
+.broadcast {
+    padding: 2px 0 0 3px;
+}
+
+.apps {
+    padding: 5px 5px 0 5px;
+}
+
+.notifications {
+    padding: 5px 3px 0 0;
+}

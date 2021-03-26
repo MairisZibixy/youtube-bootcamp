@@ -1,60 +1,76 @@
 body {
-    margin: 0;
-    background: #f1f1f1;
+  margin: 0;
+  background: #f1f1f1;
 }
 
 #top-menu {
-    display: flex;
-    padding-top: 5px;
-    justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 5px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 #start {
-    display: flex;
-    align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .menu {
-    padding: 0 3px 0 5px;
+  padding: 0 3px 0 5px;
 }
 
 .youtube-icon {
-    padding: 4px 3px 0 0;
+  padding: 4px 3px 0 0;
 }
 
 .search {
-    display: flex;
-    background: #FFFFFF;
-    box-shadow: inset 0px 4px 3px rgba(0, 0, 0, 0.05);
-    border-radius: 1px 0px 0px 1px;
-    padding-top: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #FFFFFF;
+  -webkit-box-shadow: inset 0px 4px 3px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0px 4px 3px rgba(0, 0, 0, 0.05);
+  border-radius: 1px 0px 0px 1px;
+  padding-top: 3px;
 }
 
 .search input:focus {
-    outline: none;
-    background: #dddada;
+  outline: none;
+  background: #dddada;
 }
 
 .button {
-    background: #F8F8F8;
-    border: 1px solid #CCCCCC;
-    border-radius: 1px 0px 0px 1px;
-    outline: none;
+  background: #F8F8F8;
+  border: 1px solid #CCCCCC;
+  border-radius: 1px 0px 0px 1px;
+  outline: none;
 }
 
 #end {
-    display: flex;
-    align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .broadcast {
-    padding: 2px 0 0 3px;
+  padding: 2px 0 0 3px;
 }
 
 .apps {
-    padding: 5px 5px 0 5px;
+  padding: 5px 5px 0 5px;
 }
 
 .notifications {
-    padding: 5px 3px 0 0;
+  padding: 5px 3px 0 0;
 }
+/*# sourceMappingURL=style.css.map */
